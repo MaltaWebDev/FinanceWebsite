@@ -1,3 +1,10 @@
-.hero #navbar .text-primary h1 {
-    color: green;
+/* Text colours */
+
+.text-primary {
+    color: #28a745;
 }
+
+.text-secondary {
+    color: #0284d0;
+}
+
