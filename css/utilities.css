@@ -61,6 +61,10 @@
     padding: 20px;
 }
 
+.team img {
+    border-radius: 50%;
+}
+
 /* Two-column sections */
 .flex-columns.flex-reverse .row {
     flex-direction: row-reverse;
