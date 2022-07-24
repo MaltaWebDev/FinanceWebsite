@@ -187,3 +187,46 @@ img {
 .footer a:hover {
     color: #28a745;
 }
+
+
+@media (max-width: 768px){
+    #navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    #navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    #blog .column {
+        flex: 100% !important;
+        max-width: 100%;
+    }
+
+    #cases .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    #contact .column {
+        flex: 100%;
+        max-width: 100%;
+    
+    }
+    
+    #solutions .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .team img {
+        width: 70%;
+    }
+}
