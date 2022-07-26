@@ -193,10 +193,13 @@ img {
 .post img {
     width: 300px;
     border-radius: 50%;
+    margin: 0 30px;
+}
+
+.post-img {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0 30px;
+
 }
 
 
