@@ -54,6 +54,10 @@ img {
     padding: 0 30px;
 }
 
+#navbar.top {
+    background: transparent;
+}
+
 .nav a {
     color: #fff;
     padding: 10px 20px;
